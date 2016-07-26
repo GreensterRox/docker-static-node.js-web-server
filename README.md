@@ -14,7 +14,7 @@ docker build -t my-nodejs-static-server:latest .
 
 ### Run It - Serve static files from your current directory
 ```
-docker run -v ${PWD}:/static -d -p 4000:80 --name nodejs-static my-nodejs-static-server
+docker run -v ${PWD}:/static -d -p 80:80 --name nodejs-static my-nodejs-static-server
 ```
 
 ### Tag it
