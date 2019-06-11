@@ -6,4 +6,4 @@ RUN npm install express
 ADD node-static-server.js /node-static-server.js
 
 ENTRYPOINT ["node", "node-static-server.js"]
-EXPOSE 80
+EXPOSE 3000
